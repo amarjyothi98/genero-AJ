@@ -1,14 +1,17 @@
 import './App.css';
-import Topbar from './components/navbar/Topbar';
 import Galaxt from './components/galaxyButton/Galaxt';
 import Wave from './components/wave/Wave';
+import Team from './components/team/Team';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-    <Wave/>
-    <Galaxt/>
-    <Topbar/>
+    <>  
+
+      <Team/>
+      {/* <Wave/> */}
+      {/* <Galaxt/> */}
+
     </>
   );
 }

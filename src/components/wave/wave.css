@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   height: 100%;
 }
@@ -65,4 +65,4 @@ h1 {
   transform: perspective(500px) translate3d(0, 0, -60px);
   color: #eda96d;
   z-index: 10;
-}
+} */
