@@ -4,13 +4,15 @@ import Wave from './components/wave/Wave';
 import Team from './components/team/Team';
 import OverCard from './components/overlayCard/OverCard';
 import Teamcard from './components/teamCard/Teamcard';
+import AnotherCard from './components/anothercard/AnotherCard';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>  
 
-      <Teamcard/>
+      <AnotherCard/>
+      {/* <Teamcard/> */}
       {/* <OverCard/>  --> not of any use */}
       {/* <Team/> */}
       {/* <Wave/> */}
