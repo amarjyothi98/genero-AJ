@@ -5,13 +5,14 @@ import Team from './components/team/Team';
 import OverCard from './components/overlayCard/OverCard';
 import Teamcard from './components/teamCard/Teamcard';
 import AnotherCard from './components/anothercard/AnotherCard';
+import CoreTeam from './components/coreTeam/CoreTeam';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>  
-
-      <AnotherCard/>
+      <CoreTeam/>
+      {/* <AnotherCard/> */}
       {/* <Teamcard/> */}
       {/* <OverCard/>  --> not of any use */}
       {/* <Team/> */}
